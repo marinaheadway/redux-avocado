@@ -1,13 +1,93 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+background-color:#f1b642;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+display: flex;
+justify-content: space-around;
+}
+
+.blockOne {
+  background-color: #a0ac60;
+  padding: 20px;
+  width:30%;
+}
+
+.blockTwo {
+  background-color: #fceabc;
+  padding: 20px;
+  width:50%;
+}
+
+img {
+  width: 300px;
+}
+
+.cartIcon {
+  width: 75px;
+}
+
+.categoryButton:hover {
+  background-color: #f1b642;
+}
+
+.categoryButtonSelected {
+  background-color:  #fceabc;
+
+}
+
+.categoryButton {
+ cursor: pointer;
+ margin: 5px;
+ padding: 5px;
+}
+
+.categoryButton {
+  font-family: "Roboto Mono", monospace;
+}
+
+.icon {
+  width: 30px;
+}
+
+p, button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+button {
+  background-color:#1A5319;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  color: #163020;
+ 
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+   /* font-style: italic; */
+ }
+
+ .order {
+  font-size: 15px;
+ }
+
+ 
+ .price {
+  font-size: 18px;
+ }
