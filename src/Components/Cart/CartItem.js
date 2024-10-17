@@ -5,7 +5,7 @@ import { removeItemFromCart } from "../../Redux/cartSlice";
 
 const CartItem =({cartItem})=>{
     const dishes = dataDishes.find(item=> item.id===cartItem.dishId)
-    console.log(dishes)
+
 const dispatch= useDispatch()
 
     return (

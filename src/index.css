@@ -10,6 +10,7 @@ code {
 .App {
 display: flex;
 justify-content: space-around;
+flex-wrap: wrap;
 }
 
 .blockOne {
@@ -25,7 +26,7 @@ justify-content: space-around;
 }
 
 img {
-  width: 300px;
+  width: 70%;
 }
 
 .cartIcon {
@@ -72,7 +73,7 @@ button {
 
 h1 {
   font-family: "Pacifico", cursive;
-  font-size: 50px;
+  font-size: 35px;
   color: #163020;
  
 }
@@ -80,7 +81,7 @@ h1 {
 h2 {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-   /* font-style: italic; */
+ 
  }
 
  .order {
@@ -91,3 +92,24 @@ h2 {
  .price {
   font-size: 18px;
  }
+
+@media all and (max-width: 400px) {
+
+  .blockOne, .blockTwo {
+  width:90%;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+}
+@media all and (max-width: 500px) {
+
+  /* .blockOne, .blockTwo {
+  width:90%;
+  } */
+
+  h1 {
+    font-size: 20px;
+  }
+}
