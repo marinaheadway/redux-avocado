@@ -4,7 +4,7 @@ const AllCategories=()=> {
     return (<div>
         <h1>Avocado shop</h1>
        
-        {['ЗАКУСКИ', 'САЛАТЫ', 'ГЛАВНОЕ МЕНЮ', 'НАПИТКИ', 'ДЕСЕРТЫ', 'АКСЕССУАРЫ', 'ВСЕ'].map(category=><Filter key={category} category={category}/>)
+        {['ЗАКУСКИ', 'САЛАТЫ', 'ГЛАВНОЕ МЕНЮ', 'НАПИТКИ', 'ДЕСЕРТЫ', 'АКСЕССУАРЫ', 'ВСЕ'].map(category=> <Filter key={category} category={category}/>)
         }
 
     </div>)

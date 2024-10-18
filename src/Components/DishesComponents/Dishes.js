@@ -12,10 +12,11 @@ const Dishes=()=> {
         <div>
           {dataDishes
           .filter(dish=>{
-            if (selectedCategory==='ВСЕ') return true;
-            return selectedCategory===dish.category;
+            if (selectedCategory === 'ВСЕ') return true;
+            return selectedCategory === dish.category
           })
-          .map(dish=> <Dish key={dish.id} dish={dish}/>)}
+        
+             .map(dish=> <Dish key={dish.id} dish={dish}/>)}
         
         </div>
     )

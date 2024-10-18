@@ -112,63 +112,63 @@ const dataDishes= [
         category: 'НАПИТКИ'
     },
     {
-        id: 16,
+        id: 17,
         price:200,
         img: 'icecream avocado',
         name: 'Мороженное с авокадо',
         category: 'ДЕСЕРТЫ'
     },
     {
-        id: 17,
+        id: 18,
         price:300,
         img: 'maffin',
         name: 'Маффины из авокадо и овсянкой',
         category: 'ДЕСЕРТЫ'
     },
     {
-        id: 18,
+        id: 19,
         price:350,
         img: 'pie',
         name: 'Пирог из авокадо',
         category: 'ДЕСЕРТЫ'
     },
     {
-        id: 19,
+        id: 20,
         price:800,
         img: 'bag',
         name: 'Сумка шоппер',
         category: 'АКСЕССУАРЫ'
     },
     {
-        id: 20,
+        id: 21,
         price:1200,
         img: 'bag small',
         name: 'Сумка',
         category: 'АКСЕССУАРЫ'
     },
     {
-        id: 21,
+        id: 22,
         price:800,
         img: 'cap',
         name: 'Бейсболка',
         category: 'АКСЕССУАРЫ'
     },
     {
-        id: 22,
+        id: 23,
         price:500,
         img: 'mug and spoon',
         name: 'Кружка и ложка',
         category: 'АКСЕССУАРЫ'
     },
     {
-        id: 23,
+        id: 24,
         price:450,
         img: 'ceramic mug',
         name: 'Керамическая кружка',
         category: 'АКСЕССУАРЫ'
     },
     {
-        id: 23,
+        id: 25,
         price:2500,
         img: 'hoodie',
         name: 'Толстовка',
